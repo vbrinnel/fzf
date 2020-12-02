@@ -12,6 +12,9 @@ differ depending on the package manager.
 " If installed using Homebrew
 set rtp+=/usr/local/opt/fzf
 
+If installed using MacPorts
+set rtp+=/opt/local/share/fzf/vim/
+
 " If installed using git
 set rtp+=~/.fzf
 ```
